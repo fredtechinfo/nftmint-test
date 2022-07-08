@@ -39,7 +39,7 @@ export default function Home() {
       
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      window.alert("You successfully minted a nft to support Ethereum !! ");
     } catch (err) {
       console.error(err);
     }
@@ -65,7 +65,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      window.alert("You successfully minted a nft to support Ethereum !!");
     } catch (err) {
       console.error(err);
     }
